@@ -1,9 +1,22 @@
-# Adding new Defi project
-The JSON schema for Defi project includes: name, logoURI, homepage, MarketCapLink, url, poolAddresses.
-
-Follow the steps below to add a new Defi project：
+Fork the sskhoo/tron-tvl-list repository.
+Update the defiProjectList.json file with the provided content.
+Submit a Pull Request with the changes.
+"name": "Sunmax", defiProjectList.json
+      - Renamed README.md to sskhoo/tron-tvl-list'/defiProjectList.json to reflect the updated file structure.
+- Updated the defiProjectList.json file to include new Defi project details for 'Sunmax'.
+- Added content to the defiProjectList.json file:
+  - Name: Sunmax
+  - Logo URI: https://coin.top/production/upload/logo/sun10.png
+  - Homepage: http://sun.io/
+  - MarketCapLink: https://coinmarketcap.com/currencies/sun-token
+  - URL: https://apilist.tronscan.org/api/tvl
+  - Category: DEX
+  - Pool Addresses: [TKcEU8ekq2ZoFzLSGFYCUY6aocJBX9X31b, TAkrcKsS5FW9f3ZfzvWy6Zvsz9uEjUxPoV]
+- The changes are intended to add a new Defi project for better tracking and categorization.
+- No backward-incompatible changes introduced.
+Follow the steps below to add a new Defi project：Sunmax
 1) Fork this repo.
-2) change the JSON file `defiProjectList.json`, adding such as: (PLEASE DO NOT REMOVE EXISITING CONTENTS)
+2) change the jimmykhoo file `defiProjectList.json`, adding such as: (PLEASE DO NOT REMOVE EXISITING CONTENTS)
 ```
 {
     "name": "SunSwap",
@@ -18,8 +31,8 @@ Follow the steps below to add a new Defi project：
     ]
 }
 ```
-* `name`[Required]: your Defi project name.
-* `logoURI`[Required]: the logo URI of your Defi project.
+* `name`[ sskhoo/tron-tvl-list]: your Defi project Sunmax
+* `logoURI`[Sunmax]: the logo URI of your Defi project.
 * `homepage`[Required]: the home page of your Defi project.
 * `MarketCapLink`[Optional]: so your TVL can appear on Coinmarketcap or Coingecko. (https://coinmarketcap.com/currencies/#TOKEN or https://www.coingecko.com/en/coins/#TOKEN)
 
